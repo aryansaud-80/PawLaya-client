@@ -1,8 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import Register from './pages/Register';
+import Login from './pages/Login';
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-blue-300">PawLaya</h1>
-    </div>
-  )
-}
-export default App
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
+    </>
+  );
+};
+export default App;
