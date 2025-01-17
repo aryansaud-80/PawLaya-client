@@ -20,13 +20,15 @@ const Hero = () => {
         </p>
 
         <div className='flex items-center justify-center gap-6 sm:justify-start'>
-          <button className='py-3 px-12 border border-[#675bc8] rounded-full text-lg font-semibold text-[#675bc8] bg-transparent hover:bg-[#675bc8] hover:text-white transition-all shadow-lg'
-          onClick={() => navigate('/adopt')}
+          <button
+            className='py-3 px-12 border border-[#675bc8] rounded-full text-lg font-semibold text-[#675bc8] bg-transparent hover:bg-[#675bc8] hover:text-white transition-all shadow-lg'
+            onClick={() => navigate('/adopt')}
           >
             Adopt
           </button>
-          <button className='py-3 px-12 border border-[#675bc8] rounded-full text-lg font-semibold text-[#675bc8] bg-transparent hover:bg-[#675bc8] hover:text-white transition-all shadow-lg'
-          onClick={() => navigate('/shop')} 
+          <button
+            className='py-3 px-12 border border-[#675bc8] rounded-full text-lg font-semibold text-[#675bc8] bg-transparent hover:bg-[#675bc8] hover:text-white transition-all shadow-lg'
+            onClick={() => navigate('/shop')}
           >
             Buy
           </button>

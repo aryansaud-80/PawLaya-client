@@ -26,6 +26,7 @@ import seller_icon from './seller_user_icon.svg';
 import password_show_icon from './eye-password-show.svg';
 import password_hide_icon from './eye-password-hide.svg';
 import hero_img from './HeroImage.png';
+import bulldog_img from './Bulldog_inglese.jpg';
 
 
 export const images = {
@@ -56,7 +57,8 @@ export const images = {
   person_icon,
   phone_icon,
   seller_icon,
-  hero_img
+  hero_img,
+  bulldog_img
 };
 
 export const userTypes = [
