@@ -1,4 +1,4 @@
-import logo_img from './logo.svg';
+import logo_img from './Logo.svg';
 import profile_img from './profile.svg';
 import hamburger_img from './hamburger.svg';
 import cross_img from './cross.svg';
@@ -25,6 +25,8 @@ import phone_icon from './phone_icon.svg';
 import seller_icon from './seller_user_icon.svg';
 import password_show_icon from './eye-password-show.svg';
 import password_hide_icon from './eye-password-hide.svg';
+import hero_img from './HeroImage.png';
+
 
 export const images = {
   password_hide_icon,
@@ -54,6 +56,7 @@ export const images = {
   person_icon,
   phone_icon,
   seller_icon,
+  hero_img
 };
 
 export const userTypes = [
