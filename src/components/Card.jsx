@@ -4,7 +4,7 @@ import LocationIcon from '../icons/LocationIcon';
 
 const Card = () => {
   return (
-    <div className='flex flex-col border w-80 text-[#2e256f] rounded-lg overflow-hidden shadow-lg m-10'>
+    <div className='flex flex-col border w-72 text-[#2e256f] rounded-lg overflow-hidden shadow-lg '>
       <div className='overflow-hidden h-36'>
         <img src={images.bulldog_img} alt='' className='' />
       </div>
@@ -22,14 +22,14 @@ const Card = () => {
 
         <div className='flex flex-col justify-between gap-5'>
           <div className='flex justify-between'>
-            <div className='text-[#010908] text-lg'>
+            <div className='text-[#010908] font-medium'>
               Gender:{' '}
               <span className='bg-[#b9b3e5] py-2 px-3 rounded-full text-[#2e256f] font-normal'>
                 Male
               </span>
             </div>
 
-            <div className='text-[#010908] text-lg'>
+            <div className='text-[#010908] font-medium'>
               Breed:{' '}
               <span className='bg-[#b9b3e5] py-2 px-3 rounded-full text-[#2e256f] font-normal '>
                 Bulldog
@@ -38,14 +38,14 @@ const Card = () => {
           </div>
 
           <div className='flex justify-between'>
-            <div className='text-[#010908] text-lg'>
+            <div className='text-[#010908] font-medium'>
               Age:{' '}
               <span className='bg-[#b9b3e5] py-2 px-3 rounded-full text-[#2e256f] font-normal'>
                 5 years
               </span>
             </div>
 
-            <div className='text-[#010908] text-lg'>
+            <div className='text-[#010908] font-medium'>
               Size:{' '}
               <span className='bg-[#b9b3e5] py-2 px-3 rounded-full text-[#2e256f] font-normal'>
                 Medium
@@ -62,7 +62,7 @@ const Card = () => {
         </div>
 
         <div>
-          <button className='border-[#9990da] border p-3 w-full rounded-lg hover:bg-[#5d4fc4] hover:text-white'>
+          <button className='border-[#9990da] border p-3 w-full rounded-lg hover:bg-[#5d4fc4] hover:text-white font-medium'>
             More Info
           </button>
         </div>

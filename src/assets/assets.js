@@ -27,10 +27,19 @@ import password_show_icon from './eye-password-show.svg';
 import password_hide_icon from './eye-password-hide.svg';
 import hero_img from './HeroImage.png';
 import bulldog_img from './Bulldog_inglese.jpg';
-
+import user_icon from './group_add.svg';
+import user_home_icon from './home_work.svg';
+import content_paste_search_icon from './content_paste_search.svg';
+import left from './Left.svg';
+import right from './Right.svg';
 
 export const images = {
+  left,
+  right,
   password_hide_icon,
+  content_paste_search_icon,
+  user_home_icon,
+  user_icon,
   password_show_icon,
   logo_img,
   profile_img,
@@ -58,18 +67,24 @@ export const images = {
   phone_icon,
   seller_icon,
   hero_img,
-  bulldog_img
+  bulldog_img,
 };
 
-export const userTypes = [
+export const stepsDetail = [
   {
-    name: 'customer',
-    content: "I'm a customer, buying or adopting a pets",
-    logo: person_tick_icon,
+    id: 1,
+    icon: user_icon,
+    detail: 'Set up your profile (including photos) in minutes',
   },
   {
-    name: 'seller',
-    content: "I'm a seller, selling or provide pets for adoption",
-    logo: person_icon,
+    id: 2,
+    icon: user_home_icon,
+    detail:
+      'Describe your home and routine so we can see if it’s right for pet',
+  },
+  {
+    id: 3,
+    icon: content_paste_search_icon,
+    detail: 'Start your search!',
   },
 ];
