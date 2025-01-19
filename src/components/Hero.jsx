@@ -4,7 +4,7 @@ import { images } from '../assets/assets';
 const Hero = () => {
   const navigate = useNavigate();
   return (
-    <div className='flex flex-col items-center justify-between px-5 pt-20 mx-auto sm:flex-row sm:container max-md:justify-center'>
+    <div className='flex flex-col items-center justify-between px-5 pt-20 m-auto sm:flex-row sm:container max-md:justify-center'>
       <div className='flex flex-col gap-8 text-center sm:text-left'>
         <h1 className='text-6xl text-[#0a453a] font-extrabold leading-tight tracking-wide max-lg:text-5xl max-md:text-4xl'>
           Give a New Life to <br />

@@ -10,7 +10,7 @@ const AdoptionStep = () => {
         <h3 className='text-[#0a453a] text-lg font-medium'>3 Easy Steps</h3>
       </div>
 
-      <div className='relative flex flex-wrap items-center justify-center gap-10 mb-10 lg:gap-44'>
+      <div className='relative flex flex-wrap items-center justify-center gap-10 mb-10 xl:gap-56'>
         {stepsDetail.map((step, index) => (
           <div
             key={step.id}// Adjust positioning dynamically
@@ -39,8 +39,8 @@ const AdoptionStep = () => {
                 key={index}
                 src={index === 0 ? images.left : images.right}
                 alt='Arrow'
-                className={`absolute transform -translate-x-1/2 hidden lg:block size-44 ${
-                  index === 0 ? 'left-[31%] ' : 'left-[69%] '
+                className={`absolute transform -translate-x-1/2 hidden xl:block w-[210px] ${
+                  index === 0 ? 'left-[30%] ' : 'left-[70%] '
                 }`}
               />
             );

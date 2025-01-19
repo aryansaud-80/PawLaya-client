@@ -1,4 +1,5 @@
 import AdoptionStep from '../components/AdoptionStep';
+import AnimalHumanRel from '../components/AnimalHumanRel';
 import Card from '../components/Card';
 import Hero from '../components/Hero';
 import Pets from '../components/Pets';
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Pets />
       <AdoptionStep />
+      <AnimalHumanRel />
     </section>
   );
 };

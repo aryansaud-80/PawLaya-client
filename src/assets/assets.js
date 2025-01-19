@@ -32,8 +32,20 @@ import user_home_icon from './home_work.svg';
 import content_paste_search_icon from './content_paste_search.svg';
 import left from './Left.svg';
 import right from './Right.svg';
+import paws from './paws.svg';
+import dog1 from './dog1.svg';
+import dog2 from './dog2.svg';
+import cat1 from './cat1.svg';
+import cat2 from './cat2.svg';
+import petAdoption from './Pet_adoption.svg';
 
 export const images = {
+  petAdoption,
+  paws,
+  dog1,
+  dog2,
+  cat1,
+  cat2,
   left,
   right,
   password_hide_icon,
@@ -86,5 +98,28 @@ export const stepsDetail = [
     id: 3,
     icon: content_paste_search_icon,
     detail: 'Start your search!',
+  },
+];
+
+export const animalHumanRel = [
+  {
+    title: 'Emotional relationship',
+    text: "The emotional bond between cats and humans is deeply rooted in felines' unconditional love and companionship.",
+    image: images.cat1,
+  },
+  {
+    title: 'Communication',
+    text: 'Animals can communicate better with people in such conditions, as verbal communication is replaced by non-verbal.',
+    image: images.dog1,
+  },
+  {
+    title: 'Children and pets',
+    text: 'Pets establish emotional attachments to children, and the relationship turns out positive in terms of affective aspects, in reinforcement of the child´s personality.',
+    image: images.dog2,
+  },
+  {
+    title: 'Health',
+    text: 'Some studies suggest that owning a pet can lower blood pressure and improve heart health.',
+    image: images.cat2,
   },
 ];
